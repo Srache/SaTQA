@@ -12,8 +12,8 @@ from torch.utils.data import DataLoader
 from torch.utils.tensorboard import SummaryWriter
 from nt_xent_sup_sparse import NT_Xent_Sup
 from dataset import Kadis
-#from model5 import CModel
-from model_scl_msb import NIQA as CModel
+from model5 import CModel
+
 
 
 def lr_scheduler(optimizer, epoch, lr_decay_epoch=8):
