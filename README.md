@@ -4,7 +4,12 @@
 
  ![archi](./images/Archi.png)
 
+## Environment
+ ![](https://img.shields.io/badge/python-3.8-orange.svg) ![](https://img.shields.io/badge/pytorch-1.12.0-green.svg)
 
+> $ pip install -r  requirements.txt 
+> 
+> $ conda env create -f environment.yaml
 
 
 
